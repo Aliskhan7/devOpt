@@ -1,0 +1,31 @@
+.main{
+  position: relative;
+  &:before{
+    content: '';
+    background-image: url('../../../public/assets/images/main-bg-line.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1
+  }
+}
+.form{
+  position: relative;
+  width: 465px;
+  .input{
+    position: relative;
+    width: 100%;
+    padding: 17px 0 24px 17px;
+    border-radius: 30px;
+    background: linear-gradient(215deg, #18264a 0%, #0f1631 100%);
+  }
+  .btn-input{
+    position: absolute;
+    right: 9px;
+    top: 7px;
+  }
+}

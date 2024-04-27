@@ -1,0 +1,20 @@
+.solution-inner{
+  backdrop-filter: blur(48px);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+  background: linear-gradient(180deg, rgba(33, 66, 136, 0.25) 0%, rgba(8, 20, 43, 0.25) 100%);
+  position: relative;
+  z-index: 999;
+  border-radius: 16px;
+  &:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: linear-gradient(180deg, rgba(33, 66, 136, 0.25) 0%, rgba(8, 20, 43, 0.25) 100%);
+    //background: linear-gradient(180deg, #4D6AB2 0%, #314472 100%);
+    border-radius: 16px;
+    z-index: -9;
+  }
+}

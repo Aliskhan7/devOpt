@@ -4,3 +4,10 @@
 .subtitle-section {
   @apply text-gray-200 text-xl font-thin;
 }
+
+.title-section-inners{
+  @apply text-white text-xl font-medium
+}
+.subtitle-section-inners{
+  @apply text-gray-200 text-md  font-light
+}

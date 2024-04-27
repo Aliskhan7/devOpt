@@ -22,6 +22,14 @@ module.exports = {
           200: "#bdc4d1",
         },
       },
+      fontSize: {
+        md: [
+          "16px",
+          {
+            lineHeight: "137%",
+          },
+        ],
+      },
     },
   },
   plugins: [],

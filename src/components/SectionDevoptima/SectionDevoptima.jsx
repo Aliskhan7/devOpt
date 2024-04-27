@@ -52,10 +52,8 @@ function SectionDevoptima() {
                   height={50}
                   alt="icon"
                 />
-                <h4 className="text-white text-xl font-medium mb-2">
-                  {data.title}
-                </h4>
-                <p className="text-gray-200 text-md font-light">{data.desc}</p>
+                <h4 className="title-section-inners mb-2">{data.title}</h4>
+                <p className="subtitle-section-inners">{data.desc}</p>
               </div>
             );
           })}

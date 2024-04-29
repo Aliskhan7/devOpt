@@ -3,6 +3,7 @@ import Main from "@/components/Main/Main";
 import SectionDevoptima from "@/components/SectionDevoptima/SectionDevoptima";
 import SectionSolution from "@/components/SectionSolution/SectionSolution";
 import SectionView from "@/components/SectionView/SectionView";
+import SectionAbout from "@/components/SectionAbout/SectionAbout";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <SectionDevoptima />
       <SectionSolution />
       <SectionView />
+      <SectionAbout />
     </div>
   );
 }

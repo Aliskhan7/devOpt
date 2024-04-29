@@ -31,7 +31,7 @@ const dataDev = [
 function SectionDevoptima() {
   return (
     <div className="flex justify-between items-center gap-x-20 py-32">
-      <Image src={devImg} alt="devimg" />
+      <Image width={630} src={devImg} alt="devimg" />
       <div>
         <h2 className="text-white text-5xl font-light mb-5">
           What is DevOptima?

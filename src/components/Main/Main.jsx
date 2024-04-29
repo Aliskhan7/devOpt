@@ -7,7 +7,7 @@ function Main() {
   return (
     <div className="main flex justify-between items-center py-20">
       <div className="z-10">
-        <h1 className="text-white text-7xl">
+        <h1 className="main-title">
           Revolutionize <br /> your DevOps journey with DevOptima
         </h1>
         <p className="text-xl text-gray-200 pt-7 pb-8 font-thin">

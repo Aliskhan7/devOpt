@@ -36,11 +36,10 @@ function SectionSolution() {
       <div className="grid grid-cols-3 gap-x-10 mt-14">
         {data.map((item) => {
           return (
-            <div className="solution-inner rounded-2xl flex flex-col justify-between ">
+            <div className="solution-inner rounded-2xl  ">
               <Image
-                width="100%"
-                height="100%"
-                className="mx-auto"
+                className="w-[100%]"
+                height={277}
                 src={item.img}
                 alt="img"
               />

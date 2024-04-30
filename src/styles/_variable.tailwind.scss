@@ -11,3 +11,7 @@
 .subtitle-section-inners{
   @apply text-gray-200 text-md  font-light
 }
+
+.footer-links{
+  @apply subtitle-section-inners hover:text-gray-100 duration-150 ease-in
+}

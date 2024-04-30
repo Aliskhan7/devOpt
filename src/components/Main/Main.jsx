@@ -5,7 +5,7 @@ import Button from "@/components/Button/Button";
 
 function Main() {
   return (
-    <div className="main flex justify-between items-center py-20">
+    <main className="main flex justify-between items-center py-20">
       <div className="z-10">
         <h1 className="main-title">
           Revolutionize <br /> your DevOps journey with DevOptima
@@ -16,13 +16,15 @@ function Main() {
           efficient automated workflows, and reliable scaling.
         </p>
         <form action="" className="form">
-          <input
-            placeholder="Your business email..."
-            type="text"
-            className="input"
-          />
+          <div className="form-input_block">
+            <input
+              placeholder="Your business email..."
+              type="text"
+              className="input"
+            />
+          </div>
           <Button
-            classStyle="btn-input"
+            classStyle="btn-input hover:bg-blue-100 duration-150 ease-in"
             name="Free trial"
             bg="bg-blue-200"
             p="py-3 px-9"
@@ -30,7 +32,7 @@ function Main() {
         </form>
       </div>
       <Image className="z-10" width={590} src={mainBg} alt="main-img" />
-    </div>
+    </main>
   );
 }
 

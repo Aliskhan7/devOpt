@@ -30,7 +30,7 @@ const dataDev = [
 ];
 function SectionDevoptima() {
   return (
-    <div className="flex justify-between items-center gap-x-20 py-32">
+    <section className="flex justify-between items-center gap-x-20 py-32">
       <Image width={630} src={devImg} alt="devimg" />
       <div>
         <h2 className="text-white text-5xl font-light mb-5">
@@ -48,8 +48,8 @@ function SectionDevoptima() {
                 <Image
                   className="mb-3"
                   src={data.icon}
-                  width={50}
-                  height={50}
+                  width={36}
+                  height={36}
                   alt="icon"
                 />
                 <h4 className="title-section-inners mb-2">{data.title}</h4>
@@ -59,7 +59,7 @@ function SectionDevoptima() {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

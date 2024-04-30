@@ -23,7 +23,7 @@ const data = [
 ];
 function SectionSolution() {
   return (
-    <div className="solution mb-8">
+    <section className="solution mb-8">
       <div className="max-w-[580px] mx-auto">
         <h2 className="title-section mb-5 text-center">
           Innovative solutions for operational excellence
@@ -33,25 +33,27 @@ function SectionSolution() {
           solutions for growth and evolution.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-x-10 mt-14">
+      <div className="solution-item grid grid-cols-3 gap-x-10 mt-14">
         {data.map((item) => {
           return (
-            <div className="solution-inner rounded-2xl  ">
-              <Image
-                className="w-[100%]"
-                height={277}
-                src={item.img}
-                alt="img"
-              />
-              <div className="px-8 pb-8">
-                <h4 className="title-section-inners mb-3">{item.title}</h4>
-                <p className="subtitle-section-inners">{item.desc}</p>
+            <div className="solution-border">
+              <div className="solution-inner rounded-2xl">
+                <Image
+                  className="w-[100%]"
+                  height={277}
+                  src={item.img}
+                  alt="img"
+                />
+                <div className="px-8 pb-8">
+                  <h4 className="title-section-inners mb-3">{item.title}</h4>
+                  <p className="subtitle-section-inners">{item.desc}</p>
+                </div>
               </div>
             </div>
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 

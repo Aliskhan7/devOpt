@@ -26,16 +26,29 @@
 .form{
   position: relative;
   width: 465px;
+  &-input_block{
+    width: 465px;
+    height: 56px;
+    border-radius: 30px;
+    background: linear-gradient(215deg, #1B244F 0%,#273871 50%,#2C427F 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .input{
     position: relative;
-    width: 100%;
-    padding: 17px 0 24px 17px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    margin-left: 1px;
+    padding: 11px 0 11px 17px;
     border-radius: 30px;
     background: linear-gradient(215deg, #18264a 0%, #0f1631 100%);
+    color: #eff1f6;
+    font-weight: 100;
   }
   .btn-input{
     position: absolute;
-    right: 9px;
-    top: 7px;
+    right: 5px;
+    top: 3px;
   }
 }

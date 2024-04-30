@@ -27,7 +27,7 @@ const data = [
 ];
 function SectionView() {
   return (
-    <div className="views grid grid-cols-2 gap-x-20 items-center">
+    <section className="views grid grid-cols-2 gap-x-20 items-center">
       {data.map((item) => {
         return (
           <div className="py-56">
@@ -52,7 +52,7 @@ function SectionView() {
           </div>
         );
       })}
-    </div>
+    </section>
   );
 }
 

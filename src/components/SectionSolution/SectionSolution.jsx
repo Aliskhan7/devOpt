@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import img1 from "../../../public/assets/images/solution-img-1.png";
-import img2 from "../../../public/assets/images/solution-img-2.png";
-import img3 from "../../../public/assets/images/solution-img-3.png";
+import img1 from "../../../public/assets/images/solution-img-1.svg";
+import img2 from "../../../public/assets/images/solution-img-2.svg";
+import img3 from "../../../public/assets/images/solution-img-3.svg";
 
 const data = [
   {

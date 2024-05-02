@@ -1,5 +1,5 @@
 import React from "react";
-import devImg from "../../../public/assets/images/devoptimaImg.png";
+import devImg from "../../../public/assets/images/devoptimaImg.svg";
 import icon_1 from "../../../public/assets/images/Icons/icon-1.svg";
 import icon_2 from "../../../public/assets/images/Icons/icon-2.svg";
 import icon_3 from "../../../public/assets/images/Icons/icon-3.svg";
@@ -45,13 +45,7 @@ function SectionDevoptima() {
           {dataDev.map((data) => {
             return (
               <div>
-                <Image
-                  className="mb-3"
-                  src={data.icon}
-                  width={36}
-                  height={36}
-                  alt="icon"
-                />
+                <Image className="icon-item" src={data.icon} alt="icon" />
                 <h4 className="title-section-inners mb-2">{data.title}</h4>
                 <p className="subtitle-section-inners">{data.desc}</p>
               </div>

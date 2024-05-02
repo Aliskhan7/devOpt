@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div>
       <Header />
+      <Main />
       <div className="container mx-auto">
-        <Main />
         <SectionDevoptima />
         <SectionSolution />
         <SectionView />

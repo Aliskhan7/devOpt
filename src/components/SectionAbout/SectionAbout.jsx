@@ -13,14 +13,14 @@ function SectionAbout() {
         <Button
           name="Contact us"
           bg="bg-blue-200"
-          p="px-9 py-4"
+          p="px-9 py-3"
           classStyle="hover:bg-blue-100 duration-150 ease-in"
         />
         <Button
           classStyle="hover:bg-blue-300 duration-150 ease-in"
           name="Try for free"
           bg="bg-blue-400"
-          p="px-9 py-4"
+          p="px-9 py-3"
         />
       </div>
     </section>
